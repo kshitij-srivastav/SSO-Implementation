@@ -1,0 +1,5 @@
+spring:
+  security:
+    jwt:
+      secret-key: secretKey
+      expiration: 86400000 # Token expiration time in milliseconds (e.g., 24 hours)
